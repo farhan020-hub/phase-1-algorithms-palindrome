@@ -26,7 +26,12 @@ function isPalindrome(word) {
 */
 
 /*
+
   Add written explanation of your solution here
+  before i check the word if it is a palindrome, i change the words to lowercase then i'll split the word to single letters in an array
+  then i'll reverse the words and join them so as to ensure that it is a palindrome. i'll return the lowercaseword to be equal to the reversed word
+  so as to check if it is a palindrome or not. If it is a palindrome ill console log the word to be true or false if it is not.  
+  
 */
 
 // You can run `node index.js` to view these console logs
