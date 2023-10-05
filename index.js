@@ -1,9 +1,32 @@
 function isPalindrome(word) {
   // Write your algorithm here
+
+    // Remove non-alphanumeric characters and convert to lowercase
+    const lowercaseWord = word.toLowerCase();
+    
+    // Reverse the cleaned wording
+    const reversedWord = lowercaseWord.split("").reverse().join("");
+    
+    // Check if the cleaned wording and its reverse are the same
+    return lowercaseWord === reversedWord;
+  
+  
 }
+  // Test cases
+  console.log(isPalindrome("abba")); // Output: true
+  console.log(isPalindrome("racecar")); // Output: true
+  console.log(isPalindrome("a")); // Output: true
+  console.log(isPalindrome("robot")); // Output: false
+  console.log(isPalindrome("ab")); // Output: false
+  
 
 /* 
   Add your pseudocode here
+  if it is abba return true
+  if it is racecar return true
+  if it is a return true
+  if it is robot return false
+  if it is ab return false
 */
 
 /*
