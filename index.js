@@ -22,11 +22,7 @@ function isPalindrome(word) {
 
 /* 
   Add your pseudocode here
-  if it is abba return true
-  if it is racecar return true
-  if it is a return true
-  if it is robot return false
-  if it is ab return false
+ 
 */
 
 /*
